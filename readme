@@ -1,9 +1,9 @@
-I have made this project compatible with cucumber BDD, testng and maven frameworks to run as suitable
-To run as cucumber test, open DLG_Project/src/test/java/cucumberOptions/TestRunner.java read comment; run as JUnit Test
-To run as Testng test, right click on eclipse-workspace/DLG_Project/testng.xml and run as TESTNG SUITE
-To run as maven test(For CI/CD capability); right click on eclipse-workspace/DLG_Project/pom.xml and run as Maven test
+I have made this project compatible with cucumber BDD, testng and maven frameworks to run as required
+To run as cucumber test, open <Project>/src/test/java/cucumberOptions/TestRunner.java read comment; run as JUnit Test
+To run as Testng test, right click on <Project>/testng.xml and run as TESTNG SUITE
+To run as maven test(For CI/CD capability); right click on <Project>/pom.xml and run as Maven test
 
-I have implemented logging using log4j and logs can be found in DLG_Project/logs
+I have implemented logging using log4j and logs can be found in <Project>/logs
 Also, screenshots on failure is implemented 
 For Automation Test Result Report; using ExtentReportNG and to see the html reports for test:
   For testng run; test-output->ExtentReportsTestNG.html (Right click->Properties and copy the path)
